@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- Features
+  Company
+  Careers
+  About
+
+  Login
+  Register
+
+  Make remote work
+
+  Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.
+
+  Learn more
+   -->
+  <div class="wrapper">
+  <div class="content">
+    <img src="./images/logo.svg" alt="" class="logo">
+
+<!-- nav, title,main image container -->
+
+
+<!-- nav links -->
+<div class="sidebar">
+  <img src="./images/icon-close-menu.svg" alt="" class="close">
+  <nav class="mobile_nav">
+    <ul class="mobile-main-nav">
+<!-- scoling items -->
+      <li class="mobile-features-container"> <a href="#">Features <img src="./images/icon-arrow-down.svg" alt="" class="mobile-arrow1"></a> 
+      <div class="mobile-div">
+        <ul class="mobile-features">
+          <li><img src="./images/icon-todo.svg" alt=""><a href="#">Todo List</a></li>
+          <li><img src="./images/icon-calendar.svg" alt=""><a href="#">Calender</a></li>
+          <li><img src="./images/icon-reminders.svg" alt=""><a href="#">Reminders</a></li>
+          <li><img src="./images/icon-planning.svg" alt=""><a href="#">Planing</a></li>
+        </ul>
+      </div>
+      </li>
+<!-- scoling items -->
+      <li class="mobile-company-container"> <a href="#">Company <img src="./images/icon-arrow-down.svg" alt="" class="mobile-arrow2"></a>
+        <div class="mobile-div2">
+        <ul class="mobile-company">
+          <li><a href="">History</a></li>
+          <li><a href="">Our Team</a></li>
+          <li><a href="">Blog</a></li>
+        </ul>
+      </div>
+      </li>
+      <li> <a href="#">Careers</a> </li>
+      <li> <a href="#">About</a> </li>
+    </ul>
+  
+    <a href="#" class="mobile-login">login</a>
+    <button class="mobile-register">Register</button>
+<!-- nav links end -->
+
+  </nav>
+</div>
+  
+  
+        <nav class="desktop_nav">
+          <ul class="main-nav">
+<!-- scoling items -->
+            <li class="features-container li"> <a href="#">Features <img src="./images/icon-arrow-down.svg" alt="" class="arrow1"></a> 
+            <div class="div">
+              <ul class="features ">
+                <li><img src="./images/icon-todo.svg" alt=""><a href="#">Todo List</a></li>
+                <li><img src="./images/icon-calendar.svg" alt=""><a href="#">Calender</a></li>
+                <li><img src="./images/icon-reminders.svg" alt=""><a href="#">Reminders</a></li>
+                <li><img src="./images/icon-planning.svg" alt=""><a href="#">Planing</a></li>
+              </ul>
+            </div>
+            </li>
+<!-- scoling items -->
+            <li class="company-container"> <a href="#">Company <img src="./images/icon-arrow-down.svg" alt="" class="arrow2"></a>
+              <div class="div2">
+              <ul class="company li">
+                <li><a href="">History</a></li>
+                <li><a href="">Our Team</a></li>
+                <li><a href="">Blog</a></li>
+              </ul>
+            </div>
+            </li>
+            <li class="li"> <a href="#">Careers</a> </li>
+            <li class="li"> <a href="#">About</a> </li>
+          </ul>
+        
+          <a href="#" class="login">login</a>
+<!-- nav links end -->
+
+        </nav>
+      
+<!-- //////////////////////////////////mobile//////////////////////////////////////// -->
+
+<!-- //////////////////////////////////mobile//////////////////////////////////////// -->
+<!-- text and image container -->
+      <section>
+      <div class="hero-text">
+<!-- main title text box -->
+        <div class="title">
+          <h1>Make</h1>
+          <h1> remote work</h1>
+        </div>
+        <p> Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.</p>
+        <button class="learnmore">Learn more</button>
+
+    
+        <div class="logos">
+          <img src="./images/client-databiz.svg" alt="databiz">
+          <img src="./images/client-audiophile.svg" alt="audiophile">
+          <img src="./images/client-meet.svg" alt="meet">
+          <img src="./images/client-maker.svg" alt="maker">
+        </div>
+<!-- main title text box end-->
+      </div>
+      
+      </section>
+      <picture  class="main-img">
+        <source media="(min-width:900px)" srcset="images/image-hero-desktop.png">
+        <source media="(max-width:900px)" srcset="images/image-hero-mobile.png">
+        <img src="images/image-hero-desktop.png" alt="">
+      </picture>
+      
+<!-- nav, title,main image container  end-->      
+
+    
+      <button class="Register">Register</button>
+      <button class="toggle"><img src="./images/icon-menu.svg" alt=""></button>
+<!-- wrapper end -->
+  </div>
+</div>
+
+<script src="js.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Lahiru</a>.
+  </div>
+</body>
+</html>
